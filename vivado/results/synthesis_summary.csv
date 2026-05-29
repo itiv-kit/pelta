@@ -1,0 +1,7 @@
+module,luts,ffs,wns_ns,fmax_mhz,critical_path_src,critical_path_dst
+PE,93,48,2.757,138.06,weightReg_reg[2]/C,accumulator_reg[29]/D
+ParityPE,108,49,0.334,103.46,weightReg_reg[2]/C,parityReg_reg/D
+TMRPE,345,144,2.757,138.06,pe0/weightReg_reg[2]/C,pe0/accumulator_reg[29]/D
+Top_NoSafety,1446,853,2.946,141.76,activationRegs_2_reg[1]/C,array/peArray_2_0/pe/accumulator_reg[29]/D
+Top_Parity,1609,869,1.387,116.10,activationRegs_2_reg[1]/C,array/peArray_2_0/pe/parityReg_reg/D
+Top_TMR,5785,2653,2.568,134.55,activationRegs_0_reg[1]/C,array/peArray_0_0/pe/pe0/accumulator_reg[29]/D

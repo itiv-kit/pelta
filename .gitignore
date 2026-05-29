@@ -1,0 +1,50 @@
+*.class
+*.log
+*.cache
+*.cache-main
+*.cache-tests
+*~
+
+# sbt specific
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE / IDE
+.scala_dependencies
+.worksheet
+.idea
+.bsp
+
+# Editor / agent caches
+.claude/
+.vscode/
+
+# Chisel test runs
+test_run_dir/
+*.v
+*.fir
+*.anno.json
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Questa / ModelSim simulator artifacts
+*.wlf
+/transcript
+sim/questa/work/
+sim/questa/transcript
+sim/questa/modelsim.ini
+sim/questa/iter_result.txt
+
+# Vivado synthesis artifacts (run from vivado/; *.log already ignored globally)
+vivado/.Xil/
+vivado/.staged_sv/
+vivado/*.jou
+vivado/*.str
+vivado/results/*.dcp
+vivado/results/*.rpt
+vivado/results/*.jou

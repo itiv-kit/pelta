@@ -1,0 +1,6 @@
+* text=auto eol=lf
+
+generated/** linguist-generated=true
+*.sv linguist-language=SystemVerilog
+*.dcp binary
+*.wlf binary
